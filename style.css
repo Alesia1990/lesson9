@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.to-do{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 2px solid rgb(100, 135, 71);
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(244, 248, 170);
+    padding-bottom: 20px;
+}
+.to-do header{
+    background-color: rgb(70, 106, 17);
+    text-align: center;
+}
+.to-do header h2{
+    font-size: 30px;
+    color: rgb(250, 247, 245);
+    padding: 10px 0;
+}
+.to-do .create-task{
+    margin: 15px 0;
+    width: 90%;
+    padding: 10px;
+    background-color: beige;
+    outline: none;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+}
+.to-do .create-task::placeholder{
+    font-style: italic;
+    font-size: 20px;
+}
+.to-do .main-container ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    list-style: none;
+}
+.to-do .main-container ul li{
+    text-align: left;
+    width: 90%;
+    margin: 15px 0;
+    padding: 15px;
+    border-bottom: 2px solid burlywood;
+}
+.to-do .taggle_wrapper{
+    display: inline-block;
+}
+.to-do .taggle_wrapper .done{
+    text-decoration: line-through;
+}
+.to-do .text{
+    font-size: 25px;
+    color: rgb(132, 11, 11);
+    font-style: italic;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.to-do .del-button{
+    background-color: rgb(236, 80, 80);
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: bisque;
+    font-style: italic;
+    margin-top: 5px;
+}
+
